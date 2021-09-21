@@ -2,7 +2,8 @@ section.repository-list {
     margin: 40px;
 
     h1 {
-        margin-bottom: 16px;
+        text-align: center;
+        margin: 1.5rem;
     }
 
     ul {
@@ -10,6 +11,9 @@ section.repository-list {
     }
 
     li {
+        padding: 10px;
+        border: double 5px #d2d2d2;
+
         & + li {
             margin-top: 20px;
         }
